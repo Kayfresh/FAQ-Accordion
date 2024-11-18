@@ -1,0 +1,125 @@
+@font-face {
+  font-family: WorkSans-Bold;
+  src: url(/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url(/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(/WorkSans-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9eeff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.topimg {
+  height: auto;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-self: center;
+  background-color: #fff;
+  padding: 40px 40px 60px;
+  border-radius: 20px;
+  margin-top: -170px;
+  z-index: 99;
+  box-shadow: 2px 2px 200px -100px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: #301534;
+  font-family: WorkSans-Bold;
+  margin: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px 0;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faq div h3 {
+    font-size: 18px;
+    font-family: WorkSans-Regular;
+    font-weight: 600;
+    color: #301534;
+    margin: 9px 0;
+    transition: 0.1s ease-in-out;
+}
+
+.faq div h3:hover {
+    color: #ab2fa3;
+}
+
+.faq p {
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #998e9c;
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+}
+
+#p1, #p2, #p3, #p4 {
+    display: none;
+}
+
+#q1-, #q2-, #q3-, #q4- {
+    display: none;
+}
+
+#q1_, #q2_, #q3_, #q4_ {
+    display: block;
+}
+
+.faq div div img {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.faq div div img:hover {
+    scale: 0.9;
+}
+
+hr {
+    margin: 20px 0;
+    margin-bottom: 25px;
+    color: #fafafa;
+    font-weight: 400;
+    border: 1.5px solid #fafafa;
+}
