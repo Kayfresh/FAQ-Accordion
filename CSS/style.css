@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: WorkSans-Regular;
-    src: url(/WorkSans-Regular.ttf);
+  font-family: WorkSans-Regular;
+  src: url(/WorkSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: WorkSans;
-    src: url(/WorkSans-VariableFont_wght.ttf);
+  font-family: WorkSans;
+  src: url(/WorkSans-VariableFont_wght.ttf);
 }
 
 body {
@@ -36,6 +36,7 @@ section {
   padding: 40px 40px 60px;
   border-radius: 20px;
   margin-top: -170px;
+  margin-bottom: 50px;
   z-index: 99;
   box-shadow: 2px 2px 200px -100px;
 }
@@ -73,53 +74,69 @@ section {
 }
 
 .faq div h3 {
-    font-size: 18px;
-    font-family: WorkSans-Regular;
-    font-weight: 600;
-    color: #301534;
-    margin: 9px 0;
-    transition: 0.1s ease-in-out;
+  font-size: 18px;
+  font-family: WorkSans-Regular;
+  font-weight: 600;
+  color: #301534;
+  margin: 9px 0;
+  transition: 0.1s ease-in-out;
 }
 
 .faq div h3:hover {
-    color: #ab2fa3;
+  color: #ab2fa3;
 }
 
 .faq p {
-    font-family: WorkSans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27px;
-    color: #998e9c;
-    margin-top: 10px;
-    /* margin-bottom: 20px; */
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #998e9c;
+  margin-top: 10px;
+  
 }
 
-#p1, #p2, #p3, #p4 {
-    display: none;
+#p1,
+#p2,
+#p3,
+#p4 {
+  display: none;
 }
 
-#q1-, #q2-, #q3-, #q4- {
-    display: none;
+#q1-,
+#q2-,
+#q3-,
+#q4- {
+  display: none;
 }
 
-#q1_, #q2_, #q3_, #q4_ {
-    display: block;
+#q1_,
+#q2_,
+#q3_,
+#q4_ {
+  display: block;
 }
 
 .faq div div img {
-    width: 30px;
-    transition: 0.2s ease-in-out;
+  width: 30px;
+  transition: 0.2s ease-in-out;
 }
 
 .faq div div img:hover {
-    scale: 0.9;
+  scale: 0.9;
 }
 
 hr {
-    margin: 20px 0;
-    margin-bottom: 25px;
-    color: #fafafa;
-    font-weight: 400;
-    border: 1.5px solid #fafafa;
+  margin: 20px 0;
+  margin-bottom: 25px;
+  color: #fafafa;
+  font-weight: 400;
+  border: 1.5px solid #fafafa;
 }
+
+/* @media screen and (max-width: 900px) {
+  .topimg {
+    height: 700px;
+    width: 100%;
+  }
+} */
