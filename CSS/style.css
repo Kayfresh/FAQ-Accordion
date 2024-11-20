@@ -31,7 +31,7 @@ body {
   height: auto;
 }
 
-.mobileimg  {
+.mobileimg {
   display: none;
   height: auto;
 }
@@ -41,7 +41,8 @@ body {
   height: auto;
 }
 
-.topimg1, .topimg2 {
+.topimg1,
+.topimg2 {
   margin: 0;
 }
 
@@ -111,7 +112,6 @@ section {
   line-height: 27px;
   color: #998e9c;
   margin-top: 10px;
-  
 }
 
 #p1,
